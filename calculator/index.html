@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">  
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>calculator</title>
+    </head>
+    
+    <body>
+      <main class="main">
+          <div class="calc">
+            <div class="calc-display">
+              <input disabled type="text" id="display" value="0" name="" placeholder="000000000000000000" class="calc-display-input">
+            </div>
+            <div class="calc-buttons">
+              <table class="calc-table">
+                <tr class="calc-buttons-row">
+                  <td>
+                    <button type="button" class="clear-btn btn btn-hover-red" id="ce" onclick="clearBtnPress(textContent)">ce</button>
+                  </td>
+                  <td>
+                    <button type="button" class="clear-btn btn btn-hover-red" id="c" onclick="clearBtnPress(textContent)">c</button>
+                  </td>
+                  <td>
+                    <button type="button" class="operator btn btn-hover-orange" onclick="operationBtnPress(textContent)">/</button>
+                  </td>
+                  <td>
+                    <button type="button" class=" operator btn btn-hover-orange" onclick="operationBtnPress(textContent)">*</button>
+                  </td>
+                </tr>
+                <tr class="calc-buttons-row">
+                  <td>
+                    <button type="button" class="number btn-hover-green btn" onclick="digitBtnPress(textContent)">7</button>
+                  </td>
+                  <td>
+                    <button type="button" class="number btn-hover-green btn" onclick="digitBtnPress(textContent)">8</button>
+                  </td>
+                  <td>
+                    <button type="button" class="number btn-hover-green btn" onclick="digitBtnPress(textContent)">9</button>
+                  </td>
+                  <td>
+                    <button type="button" class="operator btn btn-hover-orange" onclick="operationBtnPress(textContent)">-</button>
+                  </td>
+                </tr>
+                <tr class="calc-buttons-row">
+                  <td>
+                    <button type="button" class="number btn-hover-green btn" onclick="digitBtnPress(textContent)">4</button>
+                  </td>
+                  <td>
+                    <button type="button" class="number btn-hover-green btn" onclick="digitBtnPress(textContent)">5</button>
+                  </td>
+                  <td>
+                    <button type="button" class="number btn-hover-green btn" onclick="digitBtnPress(textContent)">6</button>
+                  </td>
+                  <td>
+                    <button type="button" class="operator btn btn-hover-orange" onclick="operationBtnPress(textContent)">+</button>
+                  </td>
+                </tr>
+                <tr class="calc-buttons-row">
+                  <td>
+                    <button type="button" class="number btn-hover-green btn" onclick="digitBtnPress(textContent)">1</button>
+                  </td>
+                  <td>
+                    <button type="button" class="number btn-hover-green btn" onclick="digitBtnPress(textContent)">2</button>
+                  </td>
+                  <td>
+                    <button type="button" class="number btn-hover-green btn" onclick="digitBtnPress(textContent)">3</button>
+                  </td>
+                  <td>
+                    <button type="button" class="operator btn btn-hover-orange" id="sqr" onclick="evalSquare()">sqr</button>
+                  </td>
+                </tr>
+                <tr class="calc-buttons-row">
+                  <td>
+                    <button type="button" class="number btn-hover-green btn" onclick="digitBtnPress(textContent)">0</button>
+                  </td>
+                  <td>
+                    <button type="button" class="btn  btn-hover-orange" id="decimal" onclick="decimalBtnPress()">.</button>
+                  </td>
+                  <td>
+                    <button type="button" class="operator btn btn-hover-orange" id="result" onclick="operationBtnPress(textContent)">=</button>
+                  </td>
+                  <td>
+                    <button type="button" class="operator btn btn-hover-orange" id="pow" onclick="operationBtnPress(textContent)">pow</button>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          
+      </main>
+      <div class="instruction">
+        <h3>Правила пользования</h3>
+        <ul>
+          <li>Калькулятор складывает, вычитает, умножает, делит, возводит в степень и извлекает квадратный корень;</li>
+          <li>Порядок действий: введите первое число, выберите действие, введите второе число, нажмите равно, или нажмите на действие, которое хотите совершить с результатом;</li>
+          <li>Для извлечения корня: введите число, нажмите на кнопку "SQR";</li>
+          <li>Чтобы ввести отрицательное число, перед вводом числа нажмите кнопку "-";</li>
+          <li>Если вы передумали, нажмите кнопку "-" ещё раз и знак отрицания пропадёт;</li>
+          <li>Например, чтобы осуществить действие "-2 * -2 = 4" необходимо нажать кнопки в следующей последовательности: "-", "2", "*", "-", "2", "=".</li>
+        </ul>
+      </div>
+      <script src="script.js">
+      </script>
+    </body>
+    </html>
