@@ -1,0 +1,225 @@
+body {
+    height: 90vh;
+    width: 80vw;
+    padding: 5vh 10vw;
+    margin: 0 auto;
+    background-color: azure;
+    max-width: 1000px;
+}
+
+.game {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.game__screen {
+    width: 80%;
+    height: 100%;
+    background-color: bisque;
+    position: relative;
+}
+
+.game__screen__cover {
+    box-sizing: border-box;
+    z-index: 99;
+    overflow: hidden;
+    position: absolute;
+    background: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+    color: greenyellow;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    text-align: center;
+    padding: 15% 5% 0;
+    right: 0;
+    bottom: 0;
+}
+
+.game__screen__cover__confirm {
+    margin-top: 5%;
+    display: flex;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.game__screen__cover__confirm__button {
+    width: 80px;
+    margin: 0 20px;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+}
+
+
+.game__screen__cover__confirm__button:hover {
+    cursor: pointer;
+}
+
+.game__screen__status-bar {
+    height: 30px;
+    width: 250px;
+    margin: 10px auto;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.game__screen__status-bar__time-counter {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game__screen__status-bar__moves-counter {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game__screen__tiles-container {
+    /*height: 90%;*/
+    width: 90%;
+    max-width: 80vh;
+    margin: 0 auto;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+    grid-gap: 3px;
+}
+
+.game__screen__tiles-container::before {
+    content: '';
+    width: 0;
+    padding-bottom: 100%;
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+}
+
+.game__screen__tiles-container > *:first-child {
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+}
+.game__screen__tile-container__tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 2rem;
+    border-radius: 5%;
+}
+
+.game__screen__tile-container__tile:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+}
+
+.game__screen__tile-container__tile--empty {
+    background-color: white;
+    border-radius: 5%;
+    opacity: 0;
+}
+
+.game__menu {
+    width: 20%;
+    height: 100%;
+    background-color: greenyellow;
+}
+
+.game__menu__button {
+    width: 65%;
+    height: 5%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    border-radius: 5%;
+}
+
+.game__menu__button:hover {
+    cursor: pointer;
+    background-color: rgb(164, 226, 71);
+}
+
+@media (max-width: 1200px) {
+    body {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 600px;
+    }
+
+    .game {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .game__screen {
+        width: 80%;
+        height: 80%;
+    }
+
+    .game__screen__tiles-container {
+        max-width: 60vh;
+    }
+
+    .game__menu {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .game__menu__button {
+        width: 20%;
+        height: 20%;
+        margin: 5px auto;
+    }
+
+    .game__screen__cover {
+        font-size: 2rem;
+    }
+
+    .game__screen__cover > h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .game__screen__status-bar {
+        width: 200px;
+    }
+
+    .game__menu__button {
+        width: 30%;
+        height: 20%;
+        margin: 5px auto;
+    }
+
+    .game__screen__cover {
+        font-size: 1.5rem;
+    }
+
+    .game__screen__cover > h2 {
+        font-size: 2rem;
+    }
+}
