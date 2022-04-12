@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="global-wrapper">
+    <header>
+      <div class="container container-header">
+        <div class="main-logo"></div>
+
+        <nav class="site-navigation">
+          <ul class="navigation-list dark-theme">
+            <li class="navigation-list__link"><a href="#skills-section" class="nav-link" data-i18n="skills">Skills</a></li>
+            <li class="navigation-list__link"><a href="#portfolio-section" class="nav-link" data-i18n="portfolio">Portfolio</a></li>
+            <li class="navigation-list__link"><a href="#video-section" class="nav-link" data-i18n="video">Video</a></li>
+            <li class="navigation-list__link"><a href="#price-section" class="nav-link" data-i18n="price">Price</a></li>
+            <li class="navigation-list__link"><a href="#contacts-section" class="nav-link" data-i18n="contacts">Contacts</a></li>
+          </ul>
+          
+        </nav>
+
+        <div class="lang-switch">
+          <span class="lang-switch__button ripple-effect" data-lang="en">en</span>
+          <span>/</span>
+          <span class="lang-switch__button lang-switch__button_active ripple-effect" data-lang="ru">ru</span>
+        </div>
+
+        <div class="theme-switch-wrapper">
+          <button class="theme-switch-button dark-theme"></button>
+        </div>
+        <span class="burger-icon dark-theme"></span>
+      </div>
+    </header>
+
+    <main class="container-main">
+      <div class="container">
+        <section class="section section-hero">
+          <div class="hero-description">
+            <h1 class="hero-description__title" data-i18n="hero-title">Alexa Rise</h1>
+            <p class="hero-description__text" data-i18n="hero-text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+            <button class="button-square button-square_fair raise-effect" data-i18n="hire">Hire me</button>
+          </div>
+        </section>
+
+        <section class="section section-skills dark-theme" id="skills-section">
+          <div class="title-wrapper title-wrapper_skills dark-theme">
+            <h2 class="section-title section-title_skills dark-theme" data-i18n="skills">Skills</h2>
+          </div>
+
+          <div class="skills-list">
+            <div class="skills-list-item">
+              <div class="skills-list-item__logo"></div>
+              <h3 class="skills-list-item__header" data-i18n="skill-title-1">Digital photography</h3>
+              <p class="skills-list-item__description" data-i18n="skill-text-1">High-quality photos in the studio and on the nature</p>
+            </div>
+
+            <div class="skills-list-item">
+              <div class="skills-list-item__logo"></div>
+              <h3 class="skills-list-item__header" data-i18n="skill-title-2">Video shooting</h3>
+              <p class="skills-list-item__description" data-i18n="skill-text-2">Capture your moments so that they always stay with you</p>
+            </div>
+
+            <div class="skills-list-item">
+              <div class="skills-list-item__logo"></div>
+              <h3 class="skills-list-item__header" data-i18n="skill-title-3">Retouch</h3>
+              <p class="skills-list-item__description" data-i18n="skill-text-3">I strive to make photography surpass reality</p>
+            </div>
+
+            <div class="skills-list-item">
+              <div class="skills-list-item__logo"></div>
+              <h3 class="skills-list-item__header" data-i18n="skill-title-4">Audio</h3>
+              <p class="skills-list-item__description" data-i18n="skill-text-4">Professional sounds recording for video, advertising, portfolio</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-portfolio dark-theme" id="portfolio-section">
+          <div class="title-wrapper title-wrapper_portfolio dark-theme">
+            <h2 class="section-title section-title_portfolio dark-theme" data-i18n="portfolio">Portfolio</h2>
+          </div>
+
+          <div class="filter-season">
+            <button class="button-square button-square_dark filter-season__button dark-theme raise-effect" data-season="winter" data-i18n="winter">Winter</button>
+            <button class="button-square button-square_dark filter-season__button dark-theme raise-effect" data-season="spring" data-i18n="spring">Spring</button>
+            <button class="button-square button-square_dark filter-season__button dark-theme raise-effect" data-season="summer" data-i18n="summer">Summer</button>
+            <button class="button-square button-square_fair filter-season__button dark-theme raise-effect" data-season="autumn" data-i18n="autumn">Autumn</button>
+          </div>
+
+          <div class="photo-gallery">
+            <img src="./assets/img/portfolio/autumn/1.jpg" alt="photo" class="photo-gallery-item">
+            <img src="./assets/img/portfolio/autumn/2.jpg" alt="photo1" class="photo-gallery-item">
+            <img src="./assets/img/portfolio/autumn/3.jpg" alt="photo2" class="photo-gallery-item">
+            <img src="./assets/img/portfolio/autumn/4.jpg" alt="photo3" class="photo-gallery-item">
+            <img src="./assets/img/portfolio/autumn/5.jpg" alt="photo4" class="photo-gallery-item">
+            <img src="./assets/img/portfolio/autumn/6.jpg" alt="photo5" class="photo-gallery-item">
+          </div>
+        </section>
+
+        <section class="section section-video dark-theme" id="video-section">
+          <div class="title-wrapper title-wrapper_video dark-theme">
+            <h2 class="section-title section-title_video dark-theme" data-i18n="video">Video</h2>
+          </div>
+
+          <div class="video-player-wrapper">
+            <div class="video-player">
+              <button class="video-player__play-button"></button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-price dark-theme" id="price-section">
+          <div class="title-wrapper title-wrapper_price dark-theme">
+            <h2 class="section-title section-title_price dark-theme" data-i18n="price">Price</h2>
+          </div>
+
+          <div class="price-category-list dark-theme">
+            <div class="price-category-item">
+              <h3 class="price-category-item__header" data-i18n="standard">Standard</h3>
+
+              <span class="price-category-item__price">500</span>
+
+              <span class="price-category-item__description" data-i18n="price-description-1-span-1">One location</span>
+              <span class="price-category-item__description" data-i18n="price-description-1-span-2">120 photos in color</span>
+              <span class="price-category-item__description" data-i18n="price-description-1-span-3">12 photos in retouch</span>
+              <span class="price-category-item__description" data-i18n="price-description-1-span-4">Readiness 2-3 weeks</span>
+              <span class="price-category-item__description" data-i18n="price-description-1-span-5">Make up, visage</span>
+
+              <button class="button-square button-square_fair price-category-item__order-button raise-effect" data-i18n="order">Order shooting</button>
+            </div>
+
+            <div class="price-category-item">
+              <h3 class="price-category-item__header" data-i18n="premium">Premium</h3>
+
+              <span class="price-category-item__price">700</span>
+
+              <span class="price-category-item__description" data-i18n="price-description-2-span-1">One or two locations</span>
+              <span class="price-category-item__description" data-i18n="price-description-2-span-2">200 photos in color</span>
+              <span class="price-category-item__description" data-i18n="price-description-2-span-3">20 photos in retouch</span>
+              <span class="price-category-item__description" data-i18n="price-description-2-span-4">Readiness 1-2 weeks</span>
+              <span class="price-category-item__description" data-i18n="price-description-2-span-5">Make up, visage</span>
+
+              <button class="button-square button-square_fair price-category-item__order-button raise-effect" data-i18n="order">Order shooting</button>
+            </div>
+
+            <div class="price-category-item">
+              <h3 class="price-category-item__header" data-i18n="gold">Gold</h3>
+
+              <span class="price-category-item__price">1000</span>
+
+              <span class="price-category-item__description" data-i18n="price-description-3-span-1">Three locations or more</span>
+              <span class="price-category-item__description" data-i18n="price-description-3-span-2">300 photos in color</span>
+              <span class="price-category-item__description" data-i18n="price-description-3-span-3">50 photos in retouch</span>
+              <span class="price-category-item__description" data-i18n="price-description-3-span-4">Readiness 1 week</span>
+              <span class="price-category-item__description" data-i18n="price-description-3-span-5">Make up, visage, hairstyle</span>
+              
+              <button class="button-square button-square_fair price-category-item__order-button raise-effect" data-i18n="order">Order shooting</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-contacts" id="contacts-section">
+          <form action="/" class="message-form">
+            <h2 class="message-form__title" data-i18n="contact-me">Contact me</h2>
+            <input type="email" placeholder="E-mail" class="input-data" data-i18n="email">
+            <input type="tel" placeholder="Phone" class="input-data" data-i18n="phone">
+            <textarea placeholder="Message" class="input-data input-data-text-area" rows="2" data-i18n="message"></textarea>
+            <input type="submit" value="Send message" class="button-square button-square_fair raise-effect" data-i18n="send-message">
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container container-footer">
+        <div class="footer-data">
+          <span>&#169;</span>
+          <span>2022</span>
+          <a href="https://github.com/RRoLL545" target="_blank" class="footer-link">github</a>
+        </div>
+
+        <a href="https://rs.school/js-stage0/" target="_blank" class="footer-link">Rolling Scopes School</a>
+        
+        <div class="footer-social-links-wrapper">
+          <ul  class="footer-social-links">
+            <li class="social-link-item"><a href="https://www.instagram.com/" target="_blank"></a></li>
+            <li class="social-link-item"><a href="https://www.facebook.com/" target="_blank"></a></li>
+            <li class="social-link-item"><a href="https://www.twitter.com/" target="_blank"></a></li>
+            <li class="social-link-item"><a href="https://www.pinterest.com/" target="_blank"></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
