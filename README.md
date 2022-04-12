@@ -4,16 +4,16 @@
 
 1. Портфолио (Landing page)
 
-  [Задание, часть 1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1.md)
+    [Задание, часть 1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1.md)
 
-  [Задание, часть 2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part2.md)
+    [Задание, часть 2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part2.md)
 
-  [Задание, часть 3](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part3.md)
+    [Задание, часть 3](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part3.md)
 
-  [Код](https://github.com/RRoLL545/pet-projects/tree/portfolio/portfolio)
+    [Код](https://github.com/RRoLL545/pet-projects/tree/portfolio/portfolio)
 
-  [Deployment](https://rroll545.github.io/pet-projects/portfolio/)
-  
+    [Deployment](https://rroll545.github.io/pet-projects/portfolio/)
+
 
 ## JavaScript (vanila)
 
