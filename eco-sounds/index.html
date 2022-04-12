@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Eco sounds">
+  <meta name="keywords" content="Eco sounds birds forest">
+  <meta name="author" content="Roman BYKOV">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <title>Eco sounds</title>
+</head>
+<body>
+  <header class="header">
+    <div class="main-logo audio-play active" data-bird="forest"></div>
+
+    <nav class="birds-list-wrapper">
+      <ul class="birds-list">
+        <li class="birds-item audio-play" data-bird="solovey">Соловей</li>
+        <li class="birds-item audio-play" data-bird="drozd">Дрозд</li>
+        <li class="birds-item audio-play" data-bird="zarynka">Малиновка</li>
+        <li class="birds-item audio-play" data-bird="javoronok">Жаворонок</li>
+        <li class="birds-item audio-play" data-bird="slavka">Славка</li>
+      </ul>
+    </nav>
+    <div class="bird-menu"></div>
+  </header>
+
+  <main class="main">
+    <button class="main-play-button audio-play" data-bird="current"></button>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-data">
+      <span>&#169;</span>
+      <span>2022</span>
+      <a href="https://github.com/rroll545" target="_blank" rel="noopener noreferrer" class="github-link">github</a>
+    </div>
+
+    <a href="https://rs.school/js/" target="_blank" rel="noopener noreferrer" class="rss-logo"></a>
+  </footer>
+
+  <audio src="./assets/audio/drozd.mp3"></audio>
+  <audio src="./assets/audio/forest.mp3"></audio>
+  <audio src="./assets/audio/javoronok.mp3"></audio>
+  <audio src="./assets/audio/slavka.mp3"></audio>
+  <audio src="./assets/audio/solovey.mp3"></audio>
+  <audio src="./assets/audio/zarynka.mp3"></audio>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
