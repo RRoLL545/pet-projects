@@ -37,7 +37,7 @@
   * [Код](https://github.com/RRoLL545/pet-projects/tree/eco-sounds/eco-sounds)
   * [Deployment](https://rroll545.github.io/pet-projects/eco-sounds/)
 
-# Тестовые задания
+# React
 
 1. Shopping Cart (React-Redux-TypeScript-Jest-RTA)
 
