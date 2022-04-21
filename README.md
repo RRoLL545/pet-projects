@@ -43,4 +43,10 @@
 
   * [Задание](https://github.com/optimaxdev/frontend-test/tree/master)
   * [Код](https://github.com/RRoLL545/shopping-cart-react-redux-typescript-jest)
-  * [Deployment](https://rroll545.github.io/Shopping-cart/)
+  * [Deployment](https://rroll545.github.io/shopping-cart-react-redux-typescript-jest/)
+
+2. Image gallery (React-Redux-TypeScript)
+
+  * [Задание](https://github.com/RRoLL545/image-gallery-react)
+  * [Код](https://github.com/RRoLL545/image-gallery-react)
+  * [Deployment](https://rroll545.github.io/image-gallery-react/)
