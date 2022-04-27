@@ -53,7 +53,7 @@
 
 # Angular
 
-1. Sports equipment booking (Angular5-Ionic3-Cordova-SCSS)
+1. Sports equipment booking (Angular5-Ionic3-Cordova-TypeScript-SCSS)
 
   * [Задание](https://github.com/RRoLL545/sport-equipment-angular-ionic-cordova/blob/main/README.md)
   * [Код](https://github.com/RRoLL545/sport-equipment-angular-ionic-cordova/tree/develop)
