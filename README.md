@@ -50,3 +50,11 @@
   * [Задание](https://github.com/RRoLL545/image-gallery-react)
   * [Код](https://github.com/RRoLL545/image-gallery-react)
   * [Deployment](https://rroll545.github.io/image-gallery-react/)
+
+# Angular
+
+1. Sports equipment booking (Angular5-Ionic3-Cordova-SCSS)
+
+  * [Задание](https://github.com/RRoLL545/sport-equipment-angular-ionic-cordova/blob/main/README.md)
+  * [Код](https://github.com/RRoLL545/sport-equipment-angular-ionic-cordova/tree/develop)
+  * [Deployment](https://rroll545.github.io/sport-equipment-angular-ionic-cordova/)
