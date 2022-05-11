@@ -51,7 +51,7 @@
   * [Код](https://github.com/RRoLL545/image-gallery-react)
   * [Deployment](https://rroll545.github.io/image-gallery-react/)
 
-3. Прогноз погоды по городам (React-Redux-ReduxToolkit-TypeScript)
+3. Прогноз погоды по городам (React-Redux-ReduxToolkit-TypeScript-StyledComponents)
 
   * Задание: приложение для вывода погоды в выбранном городе
   * [Код](https://github.com/RRoLL545/city-weather-forecast)
