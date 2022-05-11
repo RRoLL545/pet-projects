@@ -51,6 +51,13 @@
   * [Код](https://github.com/RRoLL545/image-gallery-react)
   * [Deployment](https://rroll545.github.io/image-gallery-react/)
 
+3. Прогноз погоды по городам (React-Redux-ReduxToolkit-TypeScript)
+
+  * Задание: приложение для вывода погоды в выбранном городе
+  * [Код](https://github.com/RRoLL545/city-weather-forecast)
+  * [Deployment](https://rroll545.github.io/city-weather-forecast/)
+
+
 # Angular
 
 1. Sports equipment booking (Angular5-Ionic3-Cordova-TypeScript-SCSS)
